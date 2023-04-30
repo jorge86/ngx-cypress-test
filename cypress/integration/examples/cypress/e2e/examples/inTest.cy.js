@@ -4,7 +4,7 @@ describe('in.gr search test', () => {
       cy.visit('https://www.in.gr');
   
       // Find the search input field, enter a search term, and submit the form
-      cy.get('#searchtext')
+      cy.get('#search')
         .type('Selenium')
         .type('{enter}');
   
