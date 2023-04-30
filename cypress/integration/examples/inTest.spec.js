@@ -21,5 +21,6 @@ describe('in.gr search test', () => {
       const expectedCount = 10;
       cy.get('.searchresults .result').should('have.length', expectedCount);
     });
-  });
+    
+  }); 
   
